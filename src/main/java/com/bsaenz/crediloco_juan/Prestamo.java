@@ -20,11 +20,9 @@ public class Prestamo {
     private List<DocumentoDigital> documentos;
 
     public Prestamo() {
-        super();
     }
 
     public Prestamo(BigDecimal monto, int plazoEnMeses, int cantidadCuotas, BigDecimal tasa, List<DocumentoDigital> documentos) {
-        super();
         this.monto = monto;
         this.plazoEnMeses = plazoEnMeses;
         this.cantidadCuotas = cantidadCuotas;
