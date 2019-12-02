@@ -16,7 +16,6 @@ public class PrestamoPrendario extends Prestamo{
     private String garantia;
     
     public PrestamoPrendario(){
-    super();    
     }
     
     public PrestamoPrendario(BigDecimal monto, int plazoEnMeses, int cantidadCuotas, BigDecimal tasa, List<DocumentoDigital> documentos, String situacionVeraz){

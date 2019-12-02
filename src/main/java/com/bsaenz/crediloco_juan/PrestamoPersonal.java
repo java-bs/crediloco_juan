@@ -16,7 +16,6 @@ public class PrestamoPersonal extends Prestamo{
     private String situacionVeraz;
     
     public PrestamoPersonal(){
-        super();
     }
     
     public PrestamoPersonal(BigDecimal monto, int plazoEnMeses, int cantidadCuotas, BigDecimal tasa, List<DocumentoDigital> documentos, String situacionVeraz){
